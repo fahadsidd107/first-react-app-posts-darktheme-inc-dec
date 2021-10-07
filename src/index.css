@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#mainbody{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#maindiv{
+  padding: 20px;
+  border: rgb(43, 42, 42) 2px solid;
+  width: 40%;
+}
+#dp{
+  border-radius: 50%;
+  width: 45px;
+  height:45px;
+  border: rgb(214, 73, 7) 3px solid;
+  margin-left: -90%
+}
+#info{
+  margin-top: -75px;
+  margin-left: -330px;
+  }
+#uname{
+}
+
+#date{
+  color: grey;
+  margin-left: -73px; 
+  font-size: smaller;
+  text-align: center;
+}
+#dot{
+  color: grey;
+  font-weight: bolder;
+  font-size: 30px;
+   margin-top: -43px;
+  margin-left: -5px; 
+}
+#loc{
+  color: grey;
+  margin-top: -50px;
+  margin-left: 9%;
+  font-size: smaller; 
+}
+
+#caption{
+ 
+  justify-content: left;
+  text-align: left;
+  font-weight: 100;
+}
+#pic{
+  width: 500px;
+  height: inherit;
+}
+#cmnt{
+  margin-top: 15px;
+  margin-right:700px;
+width: 100%;
+height: 40px;
+color: grey;
+background-color: rgb(24, 23, 23);
+border: 0px transparent ;
+border-radius: 10px;
+}
+
+#cmnt:focus{ 
+border: 0px transparent ;
+} 
+#darkcmnt{
+  margin-top: 15px;
+  margin-right:700px;
+width: 100%;
+height: 40px;
+color: rgb(24, 23, 23);
+background-color: grey;
+border: 0px transparent ;
+border-radius: 10px;
+}
+#btn{
+  width: 10%;
+  height: 50px;
+  background: white;
+  color: black;
+  border: grey 2px solid;
+  font-weight: bolder;
+}
+#btn:hover{
+  background: black;
+  color: white; 
+}
+#darkbtn{
+  width: 10%;
+  height: 50px;
+  background: black;
+  color: white;
+  border: grey 2px solid;
+  font-weight: bolder;
+}
+#darkbtn:hover{
+  background: white;
+  color: black;
+}
+
+#plus{
+  width: 2%;
+  height: 30px;
+  background: white;
+  color: black;
+  border: grey 2px solid;
+  font-weight: bolder;
+  margin-right: 100px;
+}
+#plus:hover{
+  background: black;
+  color: white; 
+}
+#darkplus{
+  width: 2%;
+  height: 30px;
+  background: black;
+  color: white;
+  border: grey 2px solid;
+  font-weight: bolder;
+  margin-right: 100px;
+}
+#darkplus:hover{
+  background: white;
+  color: black;
+}
+
+#minus{
+  width: 2%;
+  height: 30px;
+  background: white;
+  color: black;
+  border: grey 2px solid;
+  font-weight: bolder;
+}
+#minus:hover{
+  background: black;
+  color: white; 
+}
+#darkminus{
+  width: 2%;
+  height: 30px;
+  background: black;
+  color: white;
+  border: grey 2px solid;
+  font-weight: bolder;
+}
+#darkminus:hover{
+  background: white;
+  color: black;
+}
+.dark-col , .Dark{
+  background-color: black !important;
+  color: white !important;
+}
+.light-col , .Light{
+  background-color: white !important;
+  color: black !important;
+}
+
+@media only screen and (max-width: 420px){
+
+  #maindiv{
+    padding: 5px;
+    width: 85%;
+  }
+  #dp{
+    border-radius: 50%;
+    width: 35px;
+    height:35px;
+    margin-left: -85%
+  }
+  #info{
+    margin-top: -50px;
+    margin-left: -120px;
+  }
+  #uname{
+    font-size:12px;
+  }
+  #date{
+    margin-left: -37px;
+     margin-top: -5px;
+    font-size: 12px;
+    text-align: center;
+  }
+  #dot{
+    font-size: 30px;
+     margin-top: -40px;
+    margin-left: 18px; 
+  }
+  #loc{
+    font-size: 12px;
+    margin-top: -49px;
+    margin-left: 85px;
+  }
+  #caption{
+    font-weight: 90;
+    font-size: 12px;
+  }
+  #pic{
+    width: 310px;
+    height: inherit;
+  }
+  #btn{
+    font-size: 12px;
+    width: 30%;
+    height: 30px;
+  }
+  #darkbtn{
+    font-size: 12px;
+    width: 30%;
+    height: 30px;
+  } 
+  #tempo{
+    font-size: 14px;
+  }
+  #plus{
+    width: 7%;
+  }
+  #darkplus{
+    width: 7%;
+  } 
+  #minus{
+    width: 7%;
+  }
+  #darkminus{
+    width: 7%;
+  } 
+}
+
+@media only screen and (max-width: 361px){
+
+  #maindiv{
+    width: 90%;
+  }
+  #pic{
+    width: 310px;
+    height: inherit;
+  }
+}
